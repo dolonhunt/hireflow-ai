@@ -1,0 +1,1098 @@
+{
+  "version": 1,
+  "meta": {
+    "createdAt": "2026-04-15T05:32:39.741Z",
+    "updatedAt": "2026-04-15T05:32:39.741Z",
+    "workspaceLabel": "Bangladesh Media Recruitment"
+  },
+  "users": [
+    {
+      "id": "user_f5d52993",
+      "fullName": "Dolon Hasnain",
+      "email": "dolonhasnain@gmail.com",
+      "location": "Dhaka",
+      "timezone": "Asia/Dhaka"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Senior Reporter",
+      "department": "Newsroom",
+      "roleFamily": "editorial",
+      "location": "Dhaka",
+      "salaryMin": 45000,
+      "salaryMax": 70000,
+      "requiredSkills": [
+        "Reporting",
+        "News Writing",
+        "Research",
+        "Interviewing",
+        "Bangla"
+      ],
+      "requiredLanguages": [
+        "Bangla",
+        "English"
+      ],
+      "experienceMinYears": 3,
+      "summary": "Own field reporting, desk coordination, and newsroom-ready story filing for digital and TV output.",
+      "requiresPortfolio": true,
+      "id": "job_5d9353c3",
+      "createdAt": "2026-04-15T05:32:39.777Z",
+      "updatedAt": "2026-04-15T05:32:39.777Z"
+    },
+    {
+      "title": "Video Editor",
+      "department": "Multimedia",
+      "roleFamily": "multimedia",
+      "location": "Dhaka",
+      "salaryMin": 35000,
+      "salaryMax": 65000,
+      "requiredSkills": [
+        "Premiere Pro",
+        "After Effects",
+        "Storytelling",
+        "Color Correction"
+      ],
+      "requiredLanguages": [
+        "Bangla",
+        "English"
+      ],
+      "experienceMinYears": 2,
+      "summary": "Turn fast-moving raw footage into polished bulletins, short packages, and social cuts.",
+      "requiresPortfolio": true,
+      "id": "job_80bdc6bd",
+      "createdAt": "2026-04-15T05:32:39.777Z",
+      "updatedAt": "2026-04-15T05:32:39.777Z"
+    },
+    {
+      "title": "Graphic Designer",
+      "department": "Creative",
+      "roleFamily": "design",
+      "location": "Dhaka",
+      "salaryMin": 30000,
+      "salaryMax": 50000,
+      "requiredSkills": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "Branding"
+      ],
+      "requiredLanguages": [
+        "Bangla",
+        "English"
+      ],
+      "experienceMinYears": 2,
+      "summary": "Create campaign and newsroom graphics optimized for web, social, and broadcast support.",
+      "requiresPortfolio": true,
+      "id": "job_55364929",
+      "createdAt": "2026-04-15T05:32:39.777Z",
+      "updatedAt": "2026-04-15T05:32:39.777Z"
+    },
+    {
+      "title": "Digital Marketing Executive",
+      "department": "Growth",
+      "roleFamily": "growth",
+      "location": "Dhaka",
+      "salaryMin": 30000,
+      "salaryMax": 55000,
+      "requiredSkills": [
+        "Meta Ads",
+        "Google Analytics",
+        "Copywriting",
+        "Campaign Planning"
+      ],
+      "requiredLanguages": [
+        "Bangla",
+        "English"
+      ],
+      "experienceMinYears": 2,
+      "summary": "Manage growth experiments, traffic campaigns, and audience reporting for media brands.",
+      "requiresPortfolio": false,
+      "id": "job_d5485ddd",
+      "createdAt": "2026-04-15T05:32:39.777Z",
+      "updatedAt": "2026-04-15T05:32:39.777Z"
+    }
+  ],
+  "jobWatchlists": [
+    {
+      "id": "watch_d8dfcb8d",
+      "jobId": "job_5d9353c3",
+      "title": "Senior Reporter watchlist",
+      "source": "internal",
+      "query": "Senior Reporter bangladesh",
+      "location": "Dhaka",
+      "keywords": [
+        "Reporting",
+        "News Writing",
+        "Research"
+      ],
+      "skillCluster": [
+        "Reporting",
+        "News Writing",
+        "Research",
+        "Interviewing",
+        "Bangla"
+      ],
+      "active": true,
+      "lastRunAt": "2026-04-15T04:32:39.787Z"
+    },
+    {
+      "id": "watch_288eec01",
+      "jobId": "job_80bdc6bd",
+      "title": "Video Editor watchlist",
+      "source": "internal",
+      "query": "Video Editor bangladesh",
+      "location": "Dhaka",
+      "keywords": [
+        "Premiere Pro",
+        "After Effects",
+        "Storytelling"
+      ],
+      "skillCluster": [
+        "Premiere Pro",
+        "After Effects",
+        "Storytelling",
+        "Color Correction"
+      ],
+      "active": true,
+      "lastRunAt": "2026-04-15T04:32:39.787Z"
+    },
+    {
+      "id": "watch_2530f7e4",
+      "jobId": "job_55364929",
+      "title": "Graphic Designer watchlist",
+      "source": "internal",
+      "query": "Graphic Designer bangladesh",
+      "location": "Dhaka",
+      "keywords": [
+        "Figma",
+        "Photoshop",
+        "Illustrator"
+      ],
+      "skillCluster": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "Branding"
+      ],
+      "active": true,
+      "lastRunAt": "2026-04-15T04:32:39.787Z"
+    },
+    {
+      "id": "watch_f5fe2a86",
+      "jobId": "job_d5485ddd",
+      "title": "Digital Marketing Executive watchlist",
+      "source": "github",
+      "query": "bangladesh it support engineer",
+      "location": "Dhaka",
+      "keywords": [
+        "Meta Ads",
+        "Google Analytics",
+        "Copywriting"
+      ],
+      "skillCluster": [
+        "Meta Ads",
+        "Google Analytics",
+        "Copywriting",
+        "Campaign Planning"
+      ],
+      "active": true,
+      "lastRunAt": "2026-04-15T04:32:39.787Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand_799dfc7b",
+      "name": "Farzana Rahman",
+      "headline": "Senior Reporter covering politics and current affairs",
+      "currentCompany": "Dhaka Bulletin",
+      "currentRole": "Senior Reporter",
+      "location": "Dhaka",
+      "roleFamily": "editorial",
+      "summary": "Reporter with field and desk experience across longform and live updates.",
+      "yearsExperience": 5,
+      "expectedSalary": 62000,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "skills": [
+        "Reporting",
+        "News Writing",
+        "Research",
+        "Interviewing",
+        "Live Desk"
+      ],
+      "portfolioUrls": [
+        "https://portfolio.example.com/farzana-rahman"
+      ],
+      "lastActiveAt": "2026-04-15T01:32:39.784Z",
+      "tags": [
+        "media",
+        "editorial"
+      ],
+      "createdAt": "2026-04-14T23:32:39.785Z",
+      "updatedAt": "2026-04-15T01:32:39.785Z"
+    },
+    {
+      "id": "cand_65ea0134",
+      "name": "Mashrur Hossain",
+      "headline": "Video editor and motion storyteller",
+      "currentCompany": "Studio 71",
+      "currentRole": "Video Editor",
+      "location": "Dhaka",
+      "roleFamily": "multimedia",
+      "summary": "Edits fast-turn video packages for news and digital campaigns.",
+      "yearsExperience": 4,
+      "expectedSalary": 50000,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "skills": [
+        "Premiere Pro",
+        "After Effects",
+        "Storytelling",
+        "Color Correction"
+      ],
+      "portfolioUrls": [
+        "https://mashrur.video"
+      ],
+      "lastActiveAt": "2026-04-14T21:32:39.785Z",
+      "tags": [
+        "portfolio",
+        "multimedia"
+      ],
+      "createdAt": "2026-04-14T18:32:39.785Z",
+      "updatedAt": "2026-04-14T21:32:39.785Z"
+    },
+    {
+      "id": "cand_7dc37b4b",
+      "name": "Sadia Karim",
+      "headline": "Finance executive with media and agency accounting experience",
+      "currentCompany": "Signal Media",
+      "currentRole": "Finance Executive",
+      "location": "Dhaka",
+      "roleFamily": "finance",
+      "summary": "Handles reconciliations, monthly reporting, and budget coordination.",
+      "yearsExperience": 3,
+      "expectedSalary": 45000,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "skills": [
+        "Excel",
+        "Budgeting",
+        "Tally",
+        "Financial Reporting",
+        "Audit Support"
+      ],
+      "portfolioUrls": [],
+      "lastActiveAt": "2026-04-14T17:32:39.785Z",
+      "tags": [
+        "finance"
+      ],
+      "createdAt": "2026-04-14T14:32:39.785Z",
+      "updatedAt": "2026-04-14T17:32:39.785Z"
+    },
+    {
+      "id": "cand_63e77c4d",
+      "name": "Rafiul Alam",
+      "headline": "IT support engineer for fast-paced newsroom environments",
+      "currentCompany": "NetPoint",
+      "currentRole": "IT Support Engineer",
+      "location": "Dhaka",
+      "roleFamily": "it",
+      "summary": "Supports devices, networking, workspace admin, and helpdesk workflows.",
+      "yearsExperience": 4,
+      "expectedSalary": 58000,
+      "languages": [
+        "English"
+      ],
+      "skills": [
+        "Networking",
+        "Windows Administration",
+        "Google Workspace",
+        "Help Desk"
+      ],
+      "portfolioUrls": [
+        "https://github.com/rafiulalam"
+      ],
+      "lastActiveAt": "2026-04-15T03:32:39.785Z",
+      "tags": [
+        "it",
+        "github"
+      ],
+      "createdAt": "2026-04-15T02:32:39.786Z",
+      "updatedAt": "2026-04-15T03:32:39.786Z"
+    },
+    {
+      "id": "cand_064bbae3",
+      "name": "Tania Sultana",
+      "headline": "Graphic designer focused on social and newsroom visuals",
+      "currentCompany": "Canvas Creative",
+      "currentRole": "Graphic Designer",
+      "location": "Chattogram",
+      "roleFamily": "design",
+      "summary": "Designs campaign kits, thumbnails, and rapid-turn editorial graphics.",
+      "yearsExperience": 3,
+      "expectedSalary": 42000,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "skills": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "Branding"
+      ],
+      "portfolioUrls": [
+        "https://behance.net/taniasultana"
+      ],
+      "lastActiveAt": "2026-04-14T11:32:39.786Z",
+      "tags": [
+        "design"
+      ],
+      "createdAt": "2026-04-14T09:32:39.786Z",
+      "updatedAt": "2026-04-14T11:32:39.786Z"
+    }
+  ],
+  "candidateContacts": [
+    {
+      "id": "contact_7f37bf29",
+      "candidateId": "cand_799dfc7b",
+      "type": "email",
+      "value": "farzana.rahman@example.com",
+      "provenance": "manual",
+      "isPrimary": true,
+      "createdAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "contact_93d36970",
+      "candidateId": "cand_65ea0134",
+      "type": "phone",
+      "value": "+8801712345678",
+      "provenance": "manual",
+      "isPrimary": true,
+      "createdAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "contact_dad7ba40",
+      "candidateId": "cand_7dc37b4b",
+      "type": "email",
+      "value": "sadia.karim@example.com",
+      "provenance": "csv",
+      "isPrimary": true,
+      "createdAt": "2026-04-15T05:32:39.741Z"
+    }
+  ],
+  "candidateSources": [
+    {
+      "id": "source_2864facd",
+      "candidateId": "cand_799dfc7b",
+      "sourceType": "cv_upload",
+      "importMethod": "seed_cv_upload",
+      "url": "https://portfolio.example.com/farzana-rahman",
+      "confidence": 0.9,
+      "collectedAt": "2026-04-14T23:32:39.785Z"
+    },
+    {
+      "id": "source_7e3c805e",
+      "candidateId": "cand_65ea0134",
+      "sourceType": "cv_upload",
+      "importMethod": "seed_cv_upload",
+      "url": "https://mashrur.video",
+      "confidence": 0.9,
+      "collectedAt": "2026-04-14T18:32:39.785Z"
+    },
+    {
+      "id": "source_372a8c7c",
+      "candidateId": "cand_7dc37b4b",
+      "sourceType": "cv_upload",
+      "importMethod": "seed_cv_upload",
+      "confidence": 0.9,
+      "collectedAt": "2026-04-14T14:32:39.785Z"
+    },
+    {
+      "id": "source_6529a6fa",
+      "candidateId": "cand_63e77c4d",
+      "sourceType": "github_public",
+      "importMethod": "seed_public_profile",
+      "url": "https://github.com/rafiulalam",
+      "confidence": 0.82,
+      "collectedAt": "2026-04-15T02:32:39.786Z"
+    },
+    {
+      "id": "source_5d42d460",
+      "candidateId": "cand_064bbae3",
+      "sourceType": "cv_upload",
+      "importMethod": "seed_cv_upload",
+      "url": "https://behance.net/taniasultana",
+      "confidence": 0.9,
+      "collectedAt": "2026-04-14T09:32:39.786Z"
+    }
+  ],
+  "candidateDocuments": [],
+  "candidateJobMatches": [
+    {
+      "id": "match_d29d9b0f",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_5d9353c3",
+      "score": 96,
+      "scoreBreakdown": {
+        "titleFit": 100,
+        "skillOverlap": 80,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "4 core skills aligned",
+          "Portfolio link available",
+          "Salary expectation: BDT 62,000"
+        ]
+      },
+      "recommendedNextAction": "Shortlist and outreach",
+      "status": "shortlisted",
+      "reviewedAt": "2026-04-15T03:32:40.098Z",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_3e14bf2b",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_5d9353c3",
+      "score": 60,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 50,000"
+        ]
+      },
+      "recommendedNextAction": "Screening call if the role is urgent",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_404cb6ab",
+      "candidateId": "cand_7dc37b4b",
+      "jobId": "job_5d9353c3",
+      "score": 57,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 20,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 30,
+        "recency": 100,
+        "notes": [
+          "1 core skills aligned",
+          "No portfolio link captured yet",
+          "Salary expectation: BDT 45,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_8538a290",
+      "candidateId": "cand_63e77c4d",
+      "jobId": "job_5d9353c3",
+      "score": 55,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 50,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 58,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_2c54886c",
+      "candidateId": "cand_064bbae3",
+      "jobId": "job_5d9353c3",
+      "score": 55,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 55,
+        "salaryFit": 80,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 42,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_b90401d1",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_80bdc6bd",
+      "score": 60,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 62,000"
+        ]
+      },
+      "recommendedNextAction": "Screening call if the role is urgent",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_5bac31d1",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_80bdc6bd",
+      "score": 100,
+      "scoreBreakdown": {
+        "titleFit": 100,
+        "skillOverlap": 100,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "4 core skills aligned",
+          "Portfolio link available",
+          "Salary expectation: BDT 50,000"
+        ]
+      },
+      "recommendedNextAction": "Shortlist and outreach",
+      "status": "shortlisted",
+      "reviewedAt": "2026-04-15T03:32:40.102Z",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_f4956f5c",
+      "candidateId": "cand_7dc37b4b",
+      "jobId": "job_80bdc6bd",
+      "score": 53,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 30,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "No portfolio link captured yet",
+          "Salary expectation: BDT 45,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_1764b232",
+      "candidateId": "cand_63e77c4d",
+      "jobId": "job_80bdc6bd",
+      "score": 55,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 50,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 58,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_890897d1",
+      "candidateId": "cand_064bbae3",
+      "jobId": "job_80bdc6bd",
+      "score": 56,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 55,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 42,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_30ff1df4",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_55364929",
+      "score": 56,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 45,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 62,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_4c8954b9",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_55364929",
+      "score": 60,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 50,000"
+        ]
+      },
+      "recommendedNextAction": "Screening call if the role is urgent",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_0fc15daa",
+      "candidateId": "cand_7dc37b4b",
+      "jobId": "job_55364929",
+      "score": 53,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 30,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "No portfolio link captured yet",
+          "Salary expectation: BDT 45,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_25936c35",
+      "candidateId": "cand_63e77c4d",
+      "jobId": "job_55364929",
+      "score": 51,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 45,
+        "languageFit": 50,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 58,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_85cae0e3",
+      "candidateId": "cand_064bbae3",
+      "jobId": "job_55364929",
+      "score": 96,
+      "scoreBreakdown": {
+        "titleFit": 100,
+        "skillOverlap": 100,
+        "experienceDepth": 100,
+        "locationFit": 55,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 100,
+        "recency": 100,
+        "notes": [
+          "4 core skills aligned",
+          "Portfolio link available",
+          "Salary expectation: BDT 42,000"
+        ]
+      },
+      "recommendedNextAction": "Shortlist and outreach",
+      "status": "shortlisted",
+      "reviewedAt": "2026-04-15T03:32:40.105Z",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_2bdf259f",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_d5485ddd",
+      "score": 54,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 45,
+        "languageFit": 100,
+        "portfolioRelevance": 80,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 62,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_47599a2e",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_d5485ddd",
+      "score": 64,
+      "scoreBreakdown": {
+        "titleFit": 33,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 80,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 50,000"
+        ]
+      },
+      "recommendedNextAction": "Screening call if the role is urgent",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_ea1a4508",
+      "candidateId": "cand_7dc37b4b",
+      "jobId": "job_d5485ddd",
+      "score": 64,
+      "scoreBreakdown": {
+        "titleFit": 33,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 80,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "No portfolio link captured yet",
+          "Salary expectation: BDT 45,000"
+        ]
+      },
+      "recommendedNextAction": "Screening call if the role is urgent",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_c39f592e",
+      "candidateId": "cand_63e77c4d",
+      "jobId": "job_d5485ddd",
+      "score": 49,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 100,
+        "salaryFit": 45,
+        "languageFit": 50,
+        "portfolioRelevance": 80,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 58,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    },
+    {
+      "id": "match_f479eea4",
+      "candidateId": "cand_064bbae3",
+      "jobId": "job_d5485ddd",
+      "score": 54,
+      "scoreBreakdown": {
+        "titleFit": 0,
+        "skillOverlap": 0,
+        "experienceDepth": 100,
+        "locationFit": 55,
+        "salaryFit": 100,
+        "languageFit": 100,
+        "portfolioRelevance": 80,
+        "recency": 100,
+        "notes": [
+          "Needs closer skill review",
+          "Portfolio link available",
+          "Salary expectation: BDT 42,000"
+        ]
+      },
+      "recommendedNextAction": "Keep in talent pool",
+      "status": "new",
+      "updatedAt": "2026-04-15T05:32:39.741Z"
+    }
+  ],
+  "pipelineEntries": [
+    {
+      "id": "pipe_ea8597e4",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_5d9353c3",
+      "stage": "reviewed",
+      "updatedAt": "2026-04-15T04:32:40.107Z"
+    },
+    {
+      "id": "pipe_ec7a312d",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_5d9353c3",
+      "stage": "screening",
+      "updatedAt": "2026-04-15T03:32:40.107Z"
+    },
+    {
+      "id": "pipe_cc7033cb",
+      "candidateId": "cand_7dc37b4b",
+      "jobId": "job_5d9353c3",
+      "stage": "contacted",
+      "updatedAt": "2026-04-15T02:32:40.107Z"
+    },
+    {
+      "id": "pipe_b332db5b",
+      "candidateId": "cand_63e77c4d",
+      "jobId": "job_5d9353c3",
+      "stage": "interview",
+      "updatedAt": "2026-04-15T01:32:40.107Z"
+    },
+    {
+      "id": "pipe_31f34426",
+      "candidateId": "cand_064bbae3",
+      "jobId": "job_5d9353c3",
+      "stage": "reviewed",
+      "updatedAt": "2026-04-15T00:32:40.107Z"
+    },
+    {
+      "id": "pipe_366d45a7",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_80bdc6bd",
+      "stage": "screening",
+      "updatedAt": "2026-04-14T23:32:40.107Z"
+    }
+  ],
+  "outreachTemplates": [
+    {
+      "id": "tpl-email-en",
+      "name": "Initial Outreach",
+      "channel": "email",
+      "language": "en",
+      "subject": "Opportunity: {{job_title}} at HireFlow AI partner team",
+      "body": "Hi {{candidate_name}},\n\nI am reaching out because your background in {{headline}} looks relevant for our {{job_title}} search in {{job_location}}. We especially noticed {{top_skill}}.\n\nIf you are open to a brief conversation this week, I would be happy to share the role details and timeline.\n\nBest regards,\n{{recruiter_name}}"
+    },
+    {
+      "id": "tpl-email-bn",
+      "name": "Initial Outreach (Bangla)",
+      "channel": "email",
+      "language": "bn",
+      "subject": "{{job_title}} role - short conversation?",
+      "body": "আসসালামু আলাইকুম {{candidate_name}},\n\nআপনার {{headline}} ব্যাকগ্রাউন্ড দেখে আমরা {{job_title}} পজিশনের জন্য যোগাযোগ করছি। বিশেষ করে {{top_skill}} অভিজ্ঞতাটি আমাদের নজরে এসেছে।\n\nআপনি চাইলে এই সপ্তাহে একটি ছোট আলোচনার সময় ঠিক করা যেতে পারে।\n\nধন্যবাদ,\n{{recruiter_name}}"
+    },
+    {
+      "id": "tpl-whatsapp-en",
+      "name": "WhatsApp Intro",
+      "channel": "whatsapp",
+      "language": "en",
+      "body": "Hi {{candidate_name}}, this is {{recruiter_name}} from HireFlow AI. Your profile looks relevant for our {{job_title}} opening in {{job_location}}. Are you available for a quick chat this week?"
+    },
+    {
+      "id": "tpl-phone-bn",
+      "name": "Phone Script (Bangla)",
+      "channel": "phone",
+      "language": "bn",
+      "body": "হ্যালো {{candidate_name}}, আমি {{recruiter_name}} বলছি। আমরা {{job_title}} রোলের জন্য উপযুক্ত প্রোফাইল খুঁজছি। আপনার {{top_skill}} অভিজ্ঞতা দেখে যোগাযোগ করলাম। এখন কি ২ মিনিট কথা বলা যাবে?"
+    },
+    {
+      "id": "tpl-followup-en",
+      "name": "Follow-up",
+      "channel": "email",
+      "language": "en",
+      "subject": "Following up: {{job_title}}",
+      "body": "Hi {{candidate_name}},\n\nFollowing up on my previous note regarding the {{job_title}} role. If this is of interest, I can share the team overview and expected interview steps.\n\nThanks,\n{{recruiter_name}}"
+    }
+  ],
+  "outreachEvents": [
+    {
+      "id": "outreach_3d0068cc",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_5d9353c3",
+      "channel": "email",
+      "templateId": "tpl-email-en",
+      "renderedSubject": "Opportunity: Senior Reporter",
+      "renderedBody": "Draft saved for first-touch outreach.",
+      "sentAt": "2026-04-14T22:32:40.107Z",
+      "replyState": "sent",
+      "nextFollowUpAt": "2026-04-15T06:32:40.107Z",
+      "createdAt": "2026-04-14T22:32:40.107Z"
+    },
+    {
+      "id": "outreach_a69f79b7",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_80bdc6bd",
+      "channel": "whatsapp",
+      "templateId": "tpl-whatsapp-en",
+      "renderedBody": "Drafted WhatsApp outreach for shortlist follow-up.",
+      "replyState": "draft",
+      "createdAt": "2026-04-15T02:32:40.107Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note_06495924",
+      "candidateId": "cand_799dfc7b",
+      "body": "Strong newsroom fit. Needs scheduling confirmation.",
+      "createdAt": "2026-04-15T00:32:40.108Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_6a64007c",
+      "candidateId": "cand_799dfc7b",
+      "jobId": "job_5d9353c3",
+      "type": "follow_up",
+      "title": "Follow up on reporter outreach",
+      "dueAt": "2026-04-15T04:32:40.108Z",
+      "status": "open",
+      "createdAt": "2026-04-14T22:32:40.108Z"
+    },
+    {
+      "id": "task_116dc872",
+      "candidateId": "cand_65ea0134",
+      "jobId": "job_80bdc6bd",
+      "type": "screening",
+      "title": "Review reel and shortlist",
+      "dueAt": "2026-04-15T15:32:40.108Z",
+      "status": "open",
+      "createdAt": "2026-04-15T01:32:40.108Z"
+    }
+  ],
+  "activityEvents": [
+    {
+      "id": "activity_e0414999",
+      "source": "System",
+      "message": "Starter workspace loaded with sample media and support roles.",
+      "createdAt": "2026-04-14T17:32:40.108Z"
+    },
+    {
+      "id": "activity_54fd1dfd",
+      "source": "Workflow",
+      "message": "Daily refresh prepared reminder queue and rescored existing candidates.",
+      "createdAt": "2026-04-15T03:32:40.108Z"
+    }
+  ],
+  "importBatches": [
+    {
+      "id": "import_cbb26e83",
+      "type": "resume",
+      "fileName": "starter-workspace",
+      "importedCount": 5,
+      "createdAt": "2026-04-14T17:32:40.108Z"
+    }
+  ],
+  "dailyReview": {
+    "generatedAt": "2026-04-15T05:32:39.741Z",
+    "candidatesToReview": [
+      "cand_799dfc7b",
+      "cand_65ea0134",
+      "cand_7dc37b4b"
+    ],
+    "dueTaskIds": [],
+    "watchlistSummary": [
+      "4 active watchlists",
+      "1 GitHub watchlist ready for refresh"
+    ]
+  }
+}

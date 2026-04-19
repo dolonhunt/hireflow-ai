@@ -1,0 +1,199 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: Bangladesh Media Hiring
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: HireFlow AI
+          - paragraph [ref=e10]: Bangladesh Media Recruitment
+      - navigation [ref=e11]:
+        - link "Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e13]:
+            - img [ref=e14]
+            - text: Dashboard
+        - link "Jobs & Watchlists" [ref=e20] [cursor=pointer]:
+          - /url: /jobs
+          - generic [ref=e21]:
+            - img [ref=e22]
+            - text: Jobs & Watchlists
+        - link "Candidates" [ref=e24] [cursor=pointer]:
+          - /url: /candidates
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - text: Candidates
+        - link "Pipeline" [ref=e30] [cursor=pointer]:
+          - /url: /pipeline
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - text: Pipeline
+        - link "Workflow" [ref=e38] [cursor=pointer]:
+          - /url: /workflow
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - text: Workflow
+        - link "Outreach" [ref=e44] [cursor=pointer]:
+          - /url: /outreach
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - text: Outreach
+        - link "Imports & Sync" [ref=e49] [cursor=pointer]:
+          - /url: /imports
+          - generic [ref=e50]:
+            - img [ref=e51]
+            - text: Imports & Sync
+        - link "Settings" [ref=e55] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=e56]:
+            - img [ref=e57]
+            - text: Settings
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: Compliance mode
+        - paragraph [ref=e62]: Manual social lead capture, approved public-source enrichment, daily reminder queue, and explainable scoring.
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Dashboard
+        - heading "Recruitment Dashboard" [level=1] [ref=e68]
+        - paragraph [ref=e69]: A truthful operating view across sourcing, scoring, outreach, and follow-ups for Bangladesh media and support-role hiring.
+      - generic [ref=e71]:
+        - paragraph [ref=e72]: Updated
+        - paragraph [ref=e73]: 3 minutes ago
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - paragraph [ref=e76]: Total candidates
+        - paragraph [ref=e77]: "5"
+        - paragraph [ref=e78]: Live workspace count
+      - generic [ref=e79]:
+        - paragraph [ref=e80]: New today
+        - paragraph [ref=e81]: "3"
+        - paragraph [ref=e82]: Fresh additions since midnight
+      - generic [ref=e83]:
+        - paragraph [ref=e84]: In pipeline
+        - paragraph [ref=e85]: "4"
+        - paragraph [ref=e86]: Contacted, screening, interview, or offer stages
+      - generic [ref=e87]:
+        - paragraph [ref=e88]: Average score
+        - paragraph [ref=e89]: 62%
+        - paragraph [ref=e90]: Explainable fit score across candidate-job matches
+      - generic [ref=e91]:
+        - paragraph [ref=e92]: Interviews
+        - paragraph [ref=e93]: "1"
+        - paragraph [ref=e94]: Candidates currently in interview stage
+      - generic [ref=e95]:
+        - paragraph [ref=e96]: Offers sent
+        - paragraph [ref=e97]: "0"
+        - paragraph [ref=e98]: Offer-stage entries ready for decision
+      - generic [ref=e99]:
+        - paragraph [ref=e100]: Hired
+        - paragraph [ref=e101]: "0"
+        - paragraph [ref=e102]: Accepted and onboarded candidates
+      - generic [ref=e103]:
+        - paragraph [ref=e104]: Response rate
+        - paragraph [ref=e105]: 0%
+        - paragraph [ref=e106]: Based on sent outreach events that received replies
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e110]:
+          - paragraph [ref=e111]: Top matches
+          - heading "Highest-ranked candidates" [level=2] [ref=e112]
+          - paragraph [ref=e113]: The scoring engine stays explainable and updates after imports, job changes, and refresh runs.
+        - generic [ref=e114]:
+          - article [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - heading "Mashrur Hossain" [level=3] [ref=e119]
+                  - generic [ref=e120]: 100%
+                - paragraph [ref=e121]: Video editor and motion storyteller
+                - paragraph [ref=e122]: Video Editor
+              - paragraph [ref=e123]: Shortlist and outreach
+          - article [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e127]:
+                  - heading "Farzana Rahman" [level=3] [ref=e128]
+                  - generic [ref=e129]: 96%
+                - paragraph [ref=e130]: Senior Reporter covering politics and current affairs
+                - paragraph [ref=e131]: Senior Reporter
+              - paragraph [ref=e132]: Shortlist and outreach
+          - article [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - heading "Tania Sultana" [level=3] [ref=e137]
+                  - generic [ref=e138]: 96%
+                - paragraph [ref=e139]: Graphic designer focused on social and newsroom visuals
+                - paragraph [ref=e140]: Graphic Designer
+              - paragraph [ref=e141]: Shortlist and outreach
+          - article [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - heading "Mashrur Hossain" [level=3] [ref=e146]
+                  - generic [ref=e147]: 64%
+                - paragraph [ref=e148]: Video editor and motion storyteller
+                - paragraph [ref=e149]: Digital Marketing Executive
+              - paragraph [ref=e150]: Screening call if the role is urgent
+          - article [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - heading "Sadia Karim" [level=3] [ref=e155]
+                  - generic [ref=e156]: 64%
+                - paragraph [ref=e157]: Finance executive with media and agency accounting experience
+                - paragraph [ref=e158]: Digital Marketing Executive
+              - paragraph [ref=e159]: Screening call if the role is urgent
+      - generic [ref=e160]:
+        - generic [ref=e162]:
+          - paragraph [ref=e163]: Daily review
+          - heading "Morning queue" [level=2] [ref=e164]
+          - paragraph [ref=e165]: A quick view of what needs action first.
+        - generic [ref=e166]:
+          - generic [ref=e167]: 4 active watchlists
+          - generic [ref=e168]: 1 GitHub watchlist ready for refresh
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: Source mix
+          - heading "Candidate sources" [level=2] [ref=e174]
+          - paragraph [ref=e175]: Only approved public or candidate-provided sources are automated.
+        - generic [ref=e176]:
+          - generic [ref=e178]:
+            - generic [ref=e179]: cv_upload
+            - generic [ref=e180]: "4"
+          - generic [ref=e184]:
+            - generic [ref=e185]: github_public
+            - generic [ref=e186]: "1"
+      - generic [ref=e189]:
+        - generic [ref=e191]:
+          - paragraph [ref=e192]: Due tasks
+          - heading "Follow-ups and reminders" [level=2] [ref=e193]
+          - paragraph [ref=e194]: Close the loop quickly so candidates do not go cold.
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - paragraph [ref=e198]: Follow up on reporter outreach
+              - paragraph [ref=e199]: Farzana Rahman · due about 1 hour ago
+            - button "Mark done" [ref=e201]
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - paragraph [ref=e204]: Review reel and shortlist
+              - paragraph [ref=e205]: Mashrur Hossain · due in about 10 hours
+            - button "Mark done" [ref=e207]
+    - generic [ref=e208]:
+      - generic [ref=e210]:
+        - paragraph [ref=e211]: Recent activity
+        - heading "System and recruiter activity" [level=2] [ref=e212]
+        - paragraph [ref=e213]: Only real actions are shown here. No fabricated sourcing logs.
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - paragraph [ref=e217]: System
+            - paragraph [ref=e218]: about 12 hours ago
+          - paragraph [ref=e219]: Starter workspace loaded with sample media and support roles.
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: Workflow
+            - paragraph [ref=e223]: about 2 hours ago
+          - paragraph [ref=e224]: Daily refresh prepared reminder queue and rescored existing candidates.

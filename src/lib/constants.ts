@@ -1,0 +1,186 @@
+import { Job, OutreachTemplate, PipelineStage, RoleFamily } from "@/lib/types";
+
+export const APP_NAME = "HireFlow AI";
+export const WORKSPACE_LABEL = "Bangladesh Media Recruitment";
+
+export const PIPELINE_STAGES: PipelineStage[] = [
+  "new",
+  "reviewed",
+  "contacted",
+  "screening",
+  "interview",
+  "offer",
+  "hired",
+  "rejected",
+];
+
+export const STAGE_LABELS: Record<PipelineStage, string> = {
+  new: "New",
+  reviewed: "Reviewed",
+  contacted: "Contacted",
+  screening: "Screening",
+  interview: "Interview",
+  offer: "Offer",
+  hired: "Hired",
+  rejected: "Rejected",
+};
+
+export const ROLE_FAMILY_LABELS: Record<RoleFamily, string> = {
+  editorial: "Editorial",
+  multimedia: "Multimedia",
+  production: "Production",
+  design: "Design",
+  growth: "Growth",
+  finance: "Finance",
+  hr: "HR",
+  it: "IT",
+  operations: "Operations",
+};
+
+export const NAV_ITEMS = [
+  { href: "/dashboard", label: "Dashboard" },
+  { href: "/jobs", label: "Jobs & Watchlists" },
+  { href: "/candidates", label: "Candidates" },
+  { href: "/pipeline", label: "Pipeline" },
+  { href: "/workflow", label: "Workflow" },
+  { href: "/outreach", label: "Outreach" },
+  { href: "/imports", label: "Imports & Sync" },
+  { href: "/settings", label: "Settings" },
+];
+
+export const ROLE_TEMPLATES: Array<
+  Omit<Job, "id" | "createdAt" | "updatedAt">
+> = [
+  {
+    title: "Senior Reporter",
+    department: "Newsroom",
+    roleFamily: "editorial",
+    location: "Dhaka",
+    salaryMin: 45000,
+    salaryMax: 70000,
+    requiredSkills: ["Reporting", "News Writing", "Research", "Interviewing", "Bangla"],
+    requiredLanguages: ["Bangla", "English"],
+    experienceMinYears: 3,
+    summary: "Own field reporting, desk coordination, and newsroom-ready story filing for digital and TV output.",
+    requiresPortfolio: true,
+  },
+  {
+    title: "Video Editor",
+    department: "Multimedia",
+    roleFamily: "multimedia",
+    location: "Dhaka",
+    salaryMin: 35000,
+    salaryMax: 65000,
+    requiredSkills: ["Premiere Pro", "After Effects", "Storytelling", "Color Correction"],
+    requiredLanguages: ["Bangla", "English"],
+    experienceMinYears: 2,
+    summary: "Turn fast-moving raw footage into polished bulletins, short packages, and social cuts.",
+    requiresPortfolio: true,
+  },
+  {
+    title: "Graphic Designer",
+    department: "Creative",
+    roleFamily: "design",
+    location: "Dhaka",
+    salaryMin: 30000,
+    salaryMax: 50000,
+    requiredSkills: ["Figma", "Photoshop", "Illustrator", "Branding"],
+    requiredLanguages: ["Bangla", "English"],
+    experienceMinYears: 2,
+    summary: "Create campaign and newsroom graphics optimized for web, social, and broadcast support.",
+    requiresPortfolio: true,
+  },
+  {
+    title: "Digital Marketing Executive",
+    department: "Growth",
+    roleFamily: "growth",
+    location: "Dhaka",
+    salaryMin: 30000,
+    salaryMax: 55000,
+    requiredSkills: ["Meta Ads", "Google Analytics", "Copywriting", "Campaign Planning"],
+    requiredLanguages: ["Bangla", "English"],
+    experienceMinYears: 2,
+    summary: "Manage growth experiments, traffic campaigns, and audience reporting for media brands.",
+    requiresPortfolio: false,
+  },
+  {
+    title: "Finance Executive",
+    department: "Finance",
+    roleFamily: "finance",
+    location: "Dhaka",
+    salaryMin: 30000,
+    salaryMax: 60000,
+    requiredSkills: ["Excel", "Budgeting", "Tally", "Financial Reporting"],
+    requiredLanguages: ["English"],
+    experienceMinYears: 2,
+    summary: "Run day-to-day financial reporting, reconciliations, and support budget visibility across teams.",
+    requiresPortfolio: false,
+  },
+  {
+    title: "HR & Admin Executive",
+    department: "People",
+    roleFamily: "hr",
+    location: "Dhaka",
+    salaryMin: 28000,
+    salaryMax: 50000,
+    requiredSkills: ["Recruitment", "Interview Coordination", "Employee Relations", "HRIS"],
+    requiredLanguages: ["Bangla", "English"],
+    experienceMinYears: 2,
+    summary: "Own candidate communication, interviews, and people operations for a lean recruitment team.",
+    requiresPortfolio: false,
+  },
+  {
+    title: "IT Support Engineer",
+    department: "Technology",
+    roleFamily: "it",
+    location: "Dhaka",
+    salaryMin: 35000,
+    salaryMax: 65000,
+    requiredSkills: ["Networking", "Windows Administration", "Google Workspace", "Help Desk"],
+    requiredLanguages: ["English"],
+    experienceMinYears: 2,
+    summary: "Support internal systems, user setup, and operational reliability across newsroom and office teams.",
+    requiresPortfolio: false,
+  },
+];
+
+export const DEFAULT_OUTREACH_TEMPLATES: OutreachTemplate[] = [
+  {
+    id: "tpl-email-en",
+    name: "Initial Outreach",
+    channel: "email",
+    language: "en",
+    subject: "Opportunity: {{job_title}} at HireFlow AI partner team",
+    body: "Hi {{candidate_name}},\n\nI am reaching out because your background in {{headline}} looks relevant for our {{job_title}} search in {{job_location}}. We especially noticed {{top_skill}}.\n\nIf you are open to a brief conversation this week, I would be happy to share the role details and timeline.\n\nBest regards,\n{{recruiter_name}}",
+  },
+  {
+    id: "tpl-email-bn",
+    name: "Initial Outreach (Bangla)",
+    channel: "email",
+    language: "bn",
+    subject: "{{job_title}} role - short conversation?",
+    body: "আসসালামু আলাইকুম {{candidate_name}},\n\nআপনার {{headline}} ব্যাকগ্রাউন্ড দেখে আমরা {{job_title}} পজিশনের জন্য যোগাযোগ করছি। বিশেষ করে {{top_skill}} অভিজ্ঞতাটি আমাদের নজরে এসেছে।\n\nআপনি চাইলে এই সপ্তাহে একটি ছোট আলোচনার সময় ঠিক করা যেতে পারে।\n\nধন্যবাদ,\n{{recruiter_name}}",
+  },
+  {
+    id: "tpl-whatsapp-en",
+    name: "WhatsApp Intro",
+    channel: "whatsapp",
+    language: "en",
+    body: "Hi {{candidate_name}}, this is {{recruiter_name}} from HireFlow AI. Your profile looks relevant for our {{job_title}} opening in {{job_location}}. Are you available for a quick chat this week?",
+  },
+  {
+    id: "tpl-phone-bn",
+    name: "Phone Script (Bangla)",
+    channel: "phone",
+    language: "bn",
+    body: "হ্যালো {{candidate_name}}, আমি {{recruiter_name}} বলছি। আমরা {{job_title}} রোলের জন্য উপযুক্ত প্রোফাইল খুঁজছি। আপনার {{top_skill}} অভিজ্ঞতা দেখে যোগাযোগ করলাম। এখন কি ২ মিনিট কথা বলা যাবে?",
+  },
+  {
+    id: "tpl-followup-en",
+    name: "Follow-up",
+    channel: "email",
+    language: "en",
+    subject: "Following up: {{job_title}}",
+    body: "Hi {{candidate_name}},\n\nFollowing up on my previous note regarding the {{job_title}} role. If this is of interest, I can share the team overview and expected interview steps.\n\nThanks,\n{{recruiter_name}}",
+  },
+];
