@@ -214,32 +214,6 @@ export function buildCandidateFromText(text: string, fallbackName: string, sourc
     createdAt: now,
     updatedAt: now,
   };
-      ? "editorial"
-      : text.toLowerCase().includes("video")
-        ? "multimedia"
-        : text.toLowerCase().includes("design")
-          ? "design"
-          : text.toLowerCase().includes("finance")
-            ? "finance"
-            : text.toLowerCase().includes("hr")
-              ? "hr"
-              : text.toLowerCase().includes("it")
-                ? "it"
-                : "operations",
-    summary: text.replace(/\s+/g, " ").slice(0, 280),
-    yearsExperience: Number(text.match(/(\d+)\+?\s+years?/i)?.[1] ?? "2"),
-    expectedSalary: Number(text.match(/(?:bdt|tk|৳)\s*([0-9,]+)/i)?.[1]?.replace(/,/g, "") ?? "") || undefined,
-    languages: [
-      ...(text.toLowerCase().includes("bangla") ? ["Bangla"] : []),
-      ...(text.toLowerCase().includes("english") ? ["English"] : []),
-    ],
-    skills: knownSkills,
-    portfolioUrls: contacts.urls,
-    lastActiveAt: now,
-    tags: [sourceType],
-    createdAt: now,
-    updatedAt: now,
-  };
 
   const contactRecords: CandidateContact[] = [
     ...contacts.emails.map((value, index) => ({
