@@ -1,7 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
 import { type NextRequest, NextResponse } from "next/server";
 
-export const createClient = (request: NextRequest) => {
+export async function middleware(request: NextRequest) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
@@ -28,16 +28,13 @@ export const createClient = (request: NextRequest) => {
     },
   });
 
-  return supabase;
-};
-
-export async function middleware(request: NextRequest) {
-  const supabase = createClient(request);
-  const { data: { session } } = await supabase.auth.getSession();
-
-  // Refresh session if it exists
-  if (session) {
-    await supabase.auth.refreshSession();
+  try {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session) {
+      await supabase.auth.refreshSession();
+    }
+  } catch (error) {
+    console.error("Auth refresh error:", error);
   }
 
   return supabaseResponse;
