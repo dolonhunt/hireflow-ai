@@ -6,30 +6,55 @@ import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/auth";
 import { APP_NAME } from "@/lib/constants";
 
-export default function LoginPage() {
+export default function SignUpPage() {
+  const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
+    setSuccess("");
+
+    if (password.length < 8) {
+      setError("Password must be at least 8 characters.");
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      setError("Passwords do not match.");
+      return;
+    }
+
     setLoading(true);
 
     try {
-      const { error: signInError } = await supabase.auth.signInWithPassword({
+      const { data, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
+        options: {
+          data: {
+            full_name: fullName.trim(),
+          },
+        },
       });
-      
-      if (signInError) throw signInError;
-      
-      router.push("/dashboard");
-      router.refresh();
+
+      if (signUpError) throw signUpError;
+
+      if (data.session) {
+        router.push("/dashboard");
+        router.refresh();
+        return;
+      }
+
+      setSuccess("Account created. Check your email to confirm your address, then sign in.");
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to sign in");
+      setError(err instanceof Error ? err.message : "Failed to create account");
     } finally {
       setLoading(false);
     }
@@ -40,7 +65,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-black text-primary-strong">{APP_NAME}</h1>
-          <p className="mt-2 text-text-soft">Sign in to your workspace</p>
+          <p className="mt-2 text-text-soft">Create your workspace account</p>
         </div>
 
         <div className="data-panel">
@@ -50,6 +75,27 @@ export default function LoginPage() {
                 {error}
               </div>
             )}
+
+            {success && (
+              <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
+                {success}
+              </div>
+            )}
+
+            <div>
+              <label htmlFor="fullName" className="block text-sm font-medium text-primary-strong mb-2">
+                Full name
+              </label>
+              <input
+                id="fullName"
+                type="text"
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
+                required
+                className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-primary-strong placeholder:text-text-soft/60 focus:border-primary focus:outline-none"
+                placeholder="Your name"
+              />
+            </div>
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-primary-strong mb-2">
@@ -76,8 +122,25 @@ export default function LoginPage() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
+                minLength={8}
                 className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-primary-strong placeholder:text-text-soft/60 focus:border-primary focus:outline-none"
-                placeholder="Enter your password"
+                placeholder="At least 8 characters"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="confirmPassword" className="block text-sm font-medium text-primary-strong mb-2">
+                Confirm password
+              </label>
+              <input
+                id="confirmPassword"
+                type="password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                required
+                minLength={8}
+                className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-primary-strong placeholder:text-text-soft/60 focus:border-primary focus:outline-none"
+                placeholder="Re-enter your password"
               />
             </div>
 
@@ -86,18 +149,15 @@ export default function LoginPage() {
               disabled={loading}
               className="w-full rounded-2xl bg-primary px-5 py-3 font-semibold text-white hover:bg-primary-strong disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {loading ? "Signing in..." : "Sign In"}
+              {loading ? "Creating account..." : "Create Account"}
             </button>
           </form>
         </div>
 
         <p className="mt-4 text-center text-sm text-text-soft">
-          Sign in with your email and password
-        </p>
-        <p className="mt-2 text-center text-sm text-text-soft">
-          Need a workspace account?{" "}
-          <Link href="/signup" className="font-semibold text-primary hover:text-primary-strong">
-            Create one
+          Already have an account?{" "}
+          <Link href="/login" className="font-semibold text-primary hover:text-primary-strong">
+            Sign in
           </Link>
         </p>
       </div>
