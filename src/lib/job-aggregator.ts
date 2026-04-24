@@ -23,11 +23,6 @@ export interface AggregatedJob {
   fetchedAt: string;
 }
 
-interface JobSource {
-  name: string;
-  fetchJobs: () => Promise<AggregatedJob[]>;
-}
-
 async function fetchBdjobsJobs(): Promise<AggregatedJob[]> {
   const jobs: AggregatedJob[] = [];
   

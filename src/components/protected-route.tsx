@@ -2,12 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
+import type { User } from "@supabase/supabase-js";
 import { supabase } from "@/lib/auth";
-
-interface User {
-  id: string;
-  email: string;
-}
 
 export function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
